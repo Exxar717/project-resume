@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    flex: 30%;
+    background-color: $primary-color;
+    font-size: $font-s;
+    padding: $padd;
+}
+
+.contact {
+    flex: 70%;
+    background-color: $primary-color;
+    font-size: $font-s;
+    padding: $padd;
+}
+
+.main {
+    flex: 100%;
+    background-color: $primary-color;
+    font-size: $font-s;
+    padding: $padd;
+}
